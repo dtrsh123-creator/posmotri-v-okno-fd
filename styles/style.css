@@ -119,8 +119,8 @@ ol {
   gap: 5px;
 }
 
-.search-form__label:hover span {
-  text-decoration: underline 1px #fff;
+.search-form__label:has(.search-form__pseudo-checkbox):hover .search-form__label-text {
+  text-decoration: underline solid 1px #fff;
   cursor: pointer;
 }
 
