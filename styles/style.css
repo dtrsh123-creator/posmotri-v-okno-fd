@@ -119,7 +119,7 @@ ol {
   gap: 5px;
 }
 
-.search-form__label:hover span{
+.search-form__label:hover span {
   text-decoration: underline 1px #fff;
   cursor: pointer;
 }
